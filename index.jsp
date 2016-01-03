@@ -1,4 +1,3 @@
-test te st et e
 def install_python_pip(package_name)
     ChefSpec::Matchers::ResourceMatcher.new(:python_pip, :install, package_name)
   end
